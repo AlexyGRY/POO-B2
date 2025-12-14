@@ -1,0 +1,104 @@
+body { 
+    font-family: Arial, sans-serif;
+    background:#f8f9fa; 
+    margin:0; padding:0; 
+}
+.container { 
+    max-width: 900px; 
+    margin:20px auto; 
+    padding:20px; 
+    background:white; 
+    border-radius:8px; 
+    box-shadow:0 0 10px rgba(0,0,0,0.1); 
+}
+h1 { 
+    margin-bottom:20px; 
+}
+.movie-table, .student-table { 
+    width:100%; 
+    border-collapse:collapse; 
+    margin-bottom:20px; 
+}
+.movie-table th, .movie-table td { 
+    border:1px solid #dee2e6; 
+    padding:8px; 
+    text-align:left; 
+}
+.actions a { 
+    margin-right:5px; 
+    text-decoration:none; 
+}
+.btn { 
+    padding:5px 10px; 
+    border-radius:4px; 
+    text-decoration:none; 
+    display:inline-block; 
+}
+.btn-primary { 
+    background:#0d6efd; 
+    color:white; 
+}
+.btn-secondary { 
+    background:#6c757d;
+     color:white; 
+    }
+.btn-warning { 
+    background:#fd7e14;
+     color:white; }
+.btn-danger { 
+    background:#dc3545; 
+    color:white; 
+}
+.btn-info {
+    background:#0dcaf0;
+    color:white;
+}
+.btn-small { 
+    font-size:0.8em; 
+    padding:3px 6px; 
+}
+.badge { 
+    padding:3px 6px; 
+    border-radius:4px; 
+    color:white; 
+    font-size:0.9em; 
+}
+.badge-genre-action { 
+    background:#dc3545; 
+}
+.badge-genre-comédie { 
+    background:#ffc107; 
+    color:black; 
+}
+.badge-genre-drama { 
+    background:#5212c8; 
+}
+.badge-genre-sciencefiction { 
+    background:#0dcaf0; 
+    color:black; 
+}
+.badge-genre-horreur { 
+    background:#212529; 
+}
+.badge-genre-thriller { 
+    background:#fd7e14; 
+}
+.badge-genre-romance { 
+    background:#d63384; 
+}
+.badge-genre-documentaire { 
+    background:#198754; 
+}
+.error-message { 
+    background:#f8d7da; 
+    color:#721c24; 
+    padding:10px; 
+    margin-bottom:15px; 
+    border-radius:4px; 
+}
+.detail-actions a { 
+    margin-right:10px; 
+}
+.form-group { 
+    margin-bottom:10px; 
+}
