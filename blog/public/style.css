@@ -1,0 +1,173 @@
+/* =========================================
+   Reset et styles de base
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* =========================================
+   Navigation
+   ========================================= */
+.main-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #333;
+    background-color: #e9ecef;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* =========================================
+   Headers
+   ========================================= */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page-header h1 {
+    font-size: 1.8rem;
+}
+
+.page-header .btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+
+.btn-primary { background-color: #007bff; color: white; }
+.btn-secondary { background-color: #6c757d; color: white; }
+.btn-warning { background-color: #fd7e14; color: white; }
+.btn-danger { background-color: #dc3545; color: white; }
+.btn-info { background-color: #0dcaf0; color: white; }
+.btn-small { padding: 4px 8px; font-size: 0.8rem; }
+
+/* =========================================
+   Tables modernes
+   ========================================= */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dee2e6;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f1f3f5;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.data-table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+/* =========================================
+   Badges colorés
+   ========================================= */
+.badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Badges de statut */
+.badge-status-published { background-color: #28a745; color: white; }
+.badge-status-draft { background-color: #6c757d; color: white; }
+.badge-status-archived { background-color: #fd7e14; color: white; }
+
+/* Badge de catégorie (à générer dynamiquement) */
+.badge-category { color: white; }
+
+/* =========================================
+   Formulaires (optionnel si futur CRUD) 
+   ========================================= */
+.form-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* =========================================
+   Stats Box
+   ========================================= */
+.stats-box {
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+}
